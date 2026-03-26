@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matheus Matos | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0b1220;--card:#0f172a;--text:#e5e7eb;--muted:#94a3b8;--primary:#38bdf8;--accent:#22c55e;--border:#1f2a44;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Arial;background:var(--bg);color:var(--text);}
+    a{color:var(--primary);text-decoration:none}
+    header{padding:80px 20px;text-align:center;background:radial-gradient(1000px 300px at 50% -10%, #1f2a44, transparent)}
+    header h1{margin:0;font-size:3rem;letter-spacing:-0.02em}
+    header p{margin:10px 0;color:var(--muted)}
+    .container{max-width:1000px;margin:auto;padding:40px 20px}
+    h2{font-size:1.6rem;margin-bottom:10px}
+    .grid{display:grid;gap:20px}
+    .grid-2{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+    .card{background:var(--card);border:1px solid var(--border);padding:20px;border-radius:14px;transition:0.3s}
+    .card:hover{transform:translateY(-4px);border-color:var(--primary)}
+    ul{padding-left:18px;margin:0}
+    li{margin:6px 0;color:var(--muted)}
+    .tag{display:inline-block;background:#0b1a2e;border:1px solid var(--border);padding:6px 10px;border-radius:999px;margin:4px;color:var(--primary);font-size:0.8rem}
+    footer{text-align:center;padding:30px;color:var(--muted);border-top:1px solid var(--border)}
+    .btn{display:inline-block;margin-top:10px;padding:10px 16px;border-radius:8px;background:var(--primary);color:#000;font-weight:600}
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://media.licdn.com/dms/image/v2/D5603AQGpE7AgoLTd4Q/profile-displayphoto-scale_400_400/B56ZzOyyWIIkAg-/0/1772995949214?e=1776297600&v=beta&t=1-V0MfeDgbUmEa8h9Rmy5sdv6EALMo1a_wsjWDbZrH4" alt="Foto Matheus" style="width:120px;height:120px;border-radius:50%;object-fit:cover;margin-bottom:20px;border:3px solid #38bdf8;">
+  <h1>Matheus Matos</h1>
+  <p>Infraestrutura • Cloud • Integração de Sistemas</p>
+  <p>
+    <a href="mailto:matheusmatos42@outlook.com">Email</a> • 
+    <a href="https://www.linkedin.com/in/matheusmatos-5331b619a" target="_blank">LinkedIn</a>
+  </p>
+</header>
+
+<div class="container">
+
+<section>
+  <h2>Sobre</h2>
+  <div class="card">
+    <p>
+      Profissional de TI com experiência em suporte técnico, infraestrutura e integração de sistemas.
+      Atuo com monitoramento de redes, análise de incidentes e sustentação de ambientes corporativos.
+    </p>
+    <p>
+      Experiência com AWS (Amazon SES) há mais de 2 anos e atuação em automações e integração entre sistemas.
+      Busco sempre alinhar tecnologia às regras de negócio e melhorar processos operacionais.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>Projetos</h2>
+  <div class="grid grid-2">
+    <div class="card">
+      <h3>Integração ERP + Chatbot</h3>
+      <p>API intermediária para comunicação entre ERP e chatbot com envio automatizado via WhatsApp.</p>
+    </div>
+    <div class="card">
+      <h3>AWS SES</h3>
+      <p>Envio de e-mails transacionais e automações utilizando AWS SES há mais de 2 anos.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Competências</h2>
+  <div class="card">
+    <span class="tag">Suporte N1/N2</span>
+    <span class="tag">Infraestrutura</span>
+    <span class="tag">Redes TCP/IP</span>
+    <span class="tag">ERP</span>
+    <span class="tag">AWS SES</span>
+    <span class="tag">Integração</span>
+    <span class="tag">Monitoramento</span>
+  </div>
+</section>
+
+<section>
+  <h2>Contato</h2>
+  <div class="card">
+    <p>Email: matheusmatos42@outlook.com</p>
+    <a class="btn" href="https://www.linkedin.com/in/matheusmatos-5331b619a" target="_blank">Conectar no LinkedIn</a>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <p>© 2026 Matheus Matos</p>
+</footer>
+
+</body>
+</html>
